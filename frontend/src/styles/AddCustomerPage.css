@@ -1,0 +1,56 @@
+.add-customer-page{
+     max-width: 600px;
+    background-color: #1f1e1e;
+    color: white;
+    padding: 24px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+.add-customer-header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(39, 39, 39);
+}
+.add-customer-header h2{
+    padding-left: 20px;
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+.input-field input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.cancel-btn {
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 8px;
+    color: green;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.save-btn {
+    background-color: green;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+}

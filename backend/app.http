@@ -1,2 +1,65 @@
-//get all customers
-http://localhost:3000/customers
+# Get all customers
+GET https://customer-management-app-reactjs-qwipo.onrender.com/customers
+
+# Get single customer by ID
+GET https://customer-management-app-reactjs-qwipo.onrender.com/customers/5
+
+# Add new customer
+POST https://customer-management-app-reactjs-qwipo.onrender.com/customers
+Content-Type: application/json
+
+{
+  "first_name": "John",
+  "last_name": "Doe",
+  "phone_number": "12345677860"
+}
+
+# Update customer
+PUT https://customer-management-app-reactjs-qwipo.onrender.com/customers/6
+Content-Type: application/json
+
+{
+  "first_name": "Jane",
+  "last_name": "Doe",
+  "phone_number": "0987654321"
+}
+
+# Delete customer
+DELETE https://customer-management-app-reactjs-qwipo.onrender.com/customers/6
+
+
+# Search customers by name
+GET https://customer-management-app-reactjs-qwipo.onrender.com/customers?search=sravani
+
+
+
+
+# -------------Adress APIs-------------------
+
+# Get all addresses for a customer
+GET https://customer-management-app-reactjs-qwipo.onrender.com/customers/2/addresses
+
+# Add new address for a customer
+POST https://customer-management-app-reactjs-qwipo.onrender.com/customers/5/addresses
+Content-Type: application/json
+
+{
+  "address_details": "123 Main St",
+  "city": "Anytown",
+  "state": "USA",
+  "pin_code": "987564"
+}
+
+# Update address (by addressId)
+PUT https://customer-management-app-reactjs-qwipo.onrender.com/addresses/3
+Content-Type: application/json
+
+{
+  "address_details": "101 Pine St",
+  "city": "Oldtown",
+  "state": "India",
+  "pin_code": "45678"
+}
+
+# Delete address
+DELETE https://customer-management-app-reactjs-qwipo.onrender.com/addresses/3

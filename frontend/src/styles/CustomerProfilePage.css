@@ -1,0 +1,132 @@
+.customer-profile{
+    max-width: 600px;
+    background-color: #1f1e1e;
+    color: white;
+    padding: 24px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+.profile-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.delete-customer-btn{
+    color: red;
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+.input-field input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.addresses-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.add-new-btn{
+    color: green;
+}
+/* .addresses-list{
+} */
+.address-item{
+    background-color: rgb(56, 56, 56);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+.address-actions button {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.profile-buttons{
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+
+}
+.cancel-btn {
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 8px;
+    color: green;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.save-btn {
+    background-color: green;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.yes-btn{
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.no-btn {
+    background-color: gray;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.confirm-dialog{
+    background-attachment: fixed;
+    background-color:rgb(197, 196, 196);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
+.confirm-btns{
+    display: flex;
+}
+.customer-address{
+    display: flex;
+    flex-direction: column;
+    gap: 0;    
+}
+.customer-address h3,p{
+    margin: 0;
+    line-height: 1.4;
+}

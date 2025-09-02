@@ -7,8 +7,8 @@ A simple Customer Management web application built with **React** (frontend) and
 - frontend - vercel
 - backend - render
 
-[frontend]()
-[backend]()
+- [frontend]()
+- [backend](https://customer-management-app-reactjs-qwipo.onrender.com)
 
 ## Features
 
@@ -53,7 +53,7 @@ A simple Customer Management web application built with **React** (frontend) and
 ### 1. git repository
 
 ```bash
-git clone 
+git clone https://github.com/Sravanikonapalli/customer-management-app-reactjs-qwipo.git
 cd qwipo-reactjs-assignment
 ```
 
