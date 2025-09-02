@@ -7,7 +7,7 @@ A simple Customer Management web application built with **React** (frontend) and
 - frontend - vercel
 - backend - render
 
-- [frontend]()
+- [frontend](https://customer-management-app-reactjs-qwi.vercel.app/)
 - [backend](https://customer-management-app-reactjs-qwipo.onrender.com)
 
 ## Features

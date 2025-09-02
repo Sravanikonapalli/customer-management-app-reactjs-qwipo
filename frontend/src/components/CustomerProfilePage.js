@@ -69,7 +69,7 @@ function CustomerProfile() {
   const handleDeleteAddress = async (addrId) => {
     try {
       await axios.delete(
-        `https://customer-management-app-reactjs-qwipo.onrender.com/customers/${id}/addresses/${addrId}`
+        `https://customer-management-app-reactjs-qwipo.onrender.com/addresses/${addrId}`
       );
       fetchAddresses();
     } catch (err) {
