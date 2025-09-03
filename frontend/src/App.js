@@ -4,7 +4,6 @@ import CustomersPage from "./components/CustomersPage";
 import CustomerProfilePage from "./components/CustomerProfilePage"; 
 import AddAddressPage from "./components/AddAddressPage";
 import AddCustomerPage from "./components/AddCustomerPage";
-// make sure you created this file
 
 class App extends Component {
   render() {
